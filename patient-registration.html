@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Registration Form</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav id="navigation" 
+
+        <a href="index.html">Home</a> |
+        <a href="test-information.html">Test Information</a> |
+        <a href="about-system.html">About System</a> |
+        <a href="test-parameters.html">Test Parameters</a> |
+        <a href="navigation.html">Navigation</a> |
+        <a href="urine-strip.html">Urine Strip</a> |
+        <a href="patient-report.html">Patient Report</a> |
+        <a href="patient-registration.html">Patient Registration</a> |
+        <a href="media.html">Media</a>
+
+    </nav>
+
+    <h1>Patient Registration Form</h1>
+
+    <form>
+
+        <label for="name">Patient Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="patientid">Patient ID:</label>
+        <input type="text" id="patientid" name="patientid">
+        <br><br>
+
+        <label for="date">Test Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="doctor">Doctor Name:</label>
+        <input type="text" id="doctor" name="doctor">
+        <br><br>
+
+        <label>Symptoms:</label>
+        <br>
+
+        <input type="checkbox" id="fever" name="symptoms" value="Fever">
+        <label for="fever">Fever</label>
+
+        <input type="checkbox" id="cough" name="symptoms" value="Cough">
+        <label for="cough">Cough</label>
+
+        <input type="checkbox" id="headache" name="symptoms" value="Headache">
+        <label for="headache">Headache</label>
+
+        <input type="checkbox" id="fatigue" name="symptoms" value="Fatigue">
+        <label for="fatigue">Fatigue</label>
+
+        <br><br>
+
+        <label>Preferred Report Format:</label>
+        <br>
+
+        <input type="radio" id="pdf" name="report" value="PDF">
+        <label for="pdf">PDF</label>
+
+        <input type="radio" id="print" name="report" value="Print">
+        <label for="print">Print</label>
+
+        <input type="radio" id="emailreport" name="report" value="Email">
+        <label for="emailreport">Email</label>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
